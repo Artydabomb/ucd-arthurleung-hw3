@@ -13,6 +13,7 @@ function generatePassword() {
   var pwlength = parseInt(prompt('How many characters?'));
   console.log(typeof pwlength);
   console.log();
+  var finalpwd;
 
   /* First code: deny user if less than 8 characters or more than 128 characters*/
 
@@ -36,6 +37,7 @@ function generatePassword() {
     for (var i = 0; i < pwlength; i++) {
       var randomlower = Math.floor(Math.random() * lowercase.length);
       console.log(lowercase[randomlower]);
+      finalpwd = finalpwd + lowercase[randomlower];
     }
   }
   else {
@@ -55,6 +57,7 @@ function generatePassword() {
     for (var j = 0; j < pwlength; j++) {
       var randomupper = Math.floor(Math.random() * uppercase.length);
       console.log(uppercase[randomupper]);
+      finalpwd = finalpwd + uppercase[randomupper];
     }
   }
   else {
@@ -73,6 +76,7 @@ function generatePassword() {
     for (var k = 0; k < pwlength; k++) {
       var randomspecial = Math.floor(Math.random() * special.length);
       console.log(special[randomspecial]);
+      finalpwd = finalpwd + special[randomspecial];
     }
   }
   else {
@@ -92,6 +96,7 @@ function generatePassword() {
     for (var l = 0; l < pwlength; l++) {
       var randomnumerical = Math.floor(Math.random() * numerical.length);
       console.log(numerical[randomnumerical]);
+      finalpwd = finalpwd + numerical[randomnumerical];
     }
   }
   else {
@@ -99,11 +104,8 @@ function generatePassword() {
   }
 
   /* Write for loop here for pw length to generate the random characters one by one (anything from 8-128) */
-  for (var m = 0; m < pwlength; m++) {
-
-
-
-  }
-
-  // Add event listener to generate button
-  generateBtn.addEventListener('click', writePassword);
+  console.log(finalpwd);
+  return finalpwd;
+}
+// Add event listener to generate button
+generateBtn.addEventListener('click', writePassword);
