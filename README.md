@@ -21,7 +21,7 @@ Internet access is required this webpage. The URL is attached below:
 
 A sample picture of the webpage is as is:
 
-<img src="./assets/03-javascript-homework-demo.png">
+<img src="./Assets/03-javascript-homework-demo.png" alt="Image of Password Generator>
 
 <strong>JS Code Created by Arthur Leung</strong>
 
