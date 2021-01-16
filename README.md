@@ -17,11 +17,11 @@ To create a responsive application in which it generates a password based on fou
 <strong>Installation/Access:</strong>
 Internet access is required this webpage. The URL is attached below:
 
-[Password Generator] file:///Users/Arthur/Documents/UC%20Davis%20Class%20Repo/ucd-arthurleung-hw3/Develop/index.html
+[Password Generator] https://artydabomb.github.io/ucd-arthurleung-hw3/
 
 A sample picture of the webpage is as is:
 
-<img src="./Assets/03-javascript-homework-demo.png" alt="Image of Password Generator>
+<img src="./Assets/03-javascript-homework-demo.png" alt="Image of Password Generator">
 
 <strong>JS Code Created by Arthur Leung</strong>
 
